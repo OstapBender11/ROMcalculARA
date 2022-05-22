@@ -68,6 +68,11 @@ public class Main {
 
 
         int romIndex = intOtvet - 1;
+        if ( intOtvet <= 0) {
+            romIndex = 1;
+        }else{
+            romIndex = intOtvet - 1;
+        }
         int oneXIndex = firstNum - 1;
         int twoXIndex = twoNum - 1;
 
